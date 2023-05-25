@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link href="/css/styles.css" rel="stylesheet"> 
+    <title>mercado liebre</title>
+</head>
+<body>
+    <header>
+
+        <div class="top-header">
+            <img class="logo" src="/img/logo-mercado-liebre.svg" alt="logo-mercado-liebre">
+
+            <div class="buscador">
+                <div class="input">Buscar productos, marcas</div>
+                <div class="lupa"><i class="fa fa-search"></i></div>
+            </div>
+                        
+            <p><i class="fa-solid fa-hand-holding-dollar"></i>compra en coutas y sin tarjeta de credito</p>
+        </div>
+
+        <nav>
+            <ul>
+
+                <li>
+                    <a href="#">Ofertas</a>
+
+                </li>
+                <li>
+                    <a href="#">Tiendas Oficiales</a>
+                    
+                </li>
+                <li>
+                    <a href="#">Vender</a>
+                    
+                </li>
+                <li>
+                    <a href="#">Ayuda</a>
+                    
+                </li>
+
+            </ul>
+            <ul>
+
+                <li>
+                    <a href="#">Creá tu cuenta</a>
+                    
+                </li>
+                <li>
+                    <a href="#">Ingresá</a>
+                    
+                </li>
+                <li>
+                    <a href="#">Mis compras</a>
+                    
+                </li>
+
+            </ul>
+        </nav>
+
+        <div class="burger-menu">
+            <i class="fas fa-bars"></i>
+        </div>
+
+
+    </header>
+   
+    <main id="formulario-registro">
+        
+        <form class="formularios" action="/" method="GET" >
+
+            <div>
+                <input class="text-field" type="text" name="nombreCompleto" placeholder="nombre y apellido">
+            </div>
+
+            <div>
+                <input class="text-field" type="text" name="usuario" placeholder="nombre de usuario">
+            </div>
+
+            <div>
+                <label for="nacimiento">fecha de nacimiento</label>
+                <input type="date" id="nacimiento" name="nacimiento">
+            </div>
+
+            <div>
+                <input class="text-field" type="email" name="email" placeholder="e-mail" >
+            </div>
+
+            <div>
+                <input class="text-field" type="text" name="domicilio" placeholder="calle falssa 123">
+            </div>
+
+            <h3>tipo de perfil</h3>
+            
+            <div class="selecciones">
+
+                <div>
+                    <input type="radio" name="perfil" value="comprador" id="comprador">
+                    <label for="comprador">comprador</label>
+                </div>
+                
+                <div>  
+                    <input type="radio" name="perfil" value="vendedor" id="vendedor"> 
+                    <label for="vendedor">vendedor</label>
+                </div>
+                
+            </div>
+
+            <h3>intereses</h3>
+
+            <div class="selecciones">
+                <input type="checkbox" name="interes" value="electro" id="electro">
+                <label for="electro">electro</label>
+                <input type="checkbox" name="interes" value="moda" id="moda">
+                <label for="moda">moda</label>
+                <input type="checkbox" name="interes" value="hogar" id="hogar">
+                <label for="hogar">hogar</label>
+                <input type="checkbox" name="interes" value="jugueteria" id="jugueteria">
+                <label for="jugueteria">jugueteria</label>
+                <input type="checkbox" name="interes" value="vidaSana" id="vidaSana">
+                <label for="vidaSana">vidaSana</label>
+                
+                <div>
+                    <label for="fotoPerfil">foto de usuario</label>
+                    <input type="file" name="fotoPerfil" id="fotoPerfil">
+                </div>
+                
+                <div>
+                    <input class="text-field" type="password" name="contrasenia" placeholder="contraseña">
+                </div>
+                
+                <div>
+                    <input class="text-field" type="password" name="contraseniaconfirmar" placeholder="contraseniaconfirmar">
+                </div>
+                
+            </div>
+
+            <div>
+                <button class="botonForm botonSubmit" type="submit">enviar</button>
+                <button class="botonForm botonReset" type="reset">cancelar</button>
+            </div>
+        </form>
+
+    </main>
+
+    <footer>
+
+    <!--falta el footer-->
+
+    </footer>
+    
+</body>
+</html>
